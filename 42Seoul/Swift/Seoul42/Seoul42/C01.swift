@@ -7,13 +7,23 @@
 
 import Foundation
 
-var a = 1
-var b = 2
-var c
-
-func sum (a,b) -> Int
+func sum (a:Int, b:Int) -> Int
 {
-    a + b = c
+    let c = a + b
     
     return c
 }
+
+
+//let volcanoExlposivityIndex: Int
+//volcanoExlposivityIndex = 3
+//
+//switch volcanoExlposivityIndex {
+//case 0:
+//    print("Effusive")
+//case 1:
+//    print("some")
+//default:
+//    break
+//}
+
