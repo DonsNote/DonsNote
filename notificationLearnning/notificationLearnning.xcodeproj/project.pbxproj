@@ -19,6 +19,7 @@
 		F6B22AA72A67C4A40083EB51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6B22AA92A67C4A50083EB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B22AAC2A67C4A50083EB51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6B22AB32A67CC170083EB51 /* notificationLearnning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notificationLearnning.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		F6B22AA42A67C4A40083EB51 /* notificationLearnning */ = {
 			isa = PBXGroup;
 			children = (
+				F6B22AB32A67CC170083EB51 /* notificationLearnning.entitlements */,
 				F6B22AA52A67C4A40083EB51 /* notificationLearnningApp.swift */,
 				F6B22AA72A67C4A40083EB51 /* ContentView.swift */,
 				F6B22AA92A67C4A50083EB51 /* Assets.xcassets */,
@@ -264,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notificationLearnning/notificationLearnning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"notificationLearnning/Preview Content\"";
@@ -293,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notificationLearnning/notificationLearnning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"notificationLearnning/Preview Content\"";
